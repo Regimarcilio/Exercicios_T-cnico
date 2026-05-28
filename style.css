@@ -1,15 +1,21 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
 body {
     width: 100%;
-    height: 500px;
+    height: 800px;
     background: grey;
+    font-family: 'arial' 's;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .titulo {
-    width: 80%;
+    width: 100%;
     height: 50px;
     background: yellow;
     display: flex;
@@ -28,14 +34,18 @@ body {
 }
 
 .search {
-    width: 200px;
+    width: 40%;
     height: 30px;
     background: white;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-
+.search img {
+    width: 10%;
+    height: 20px;
+    margin-right: 10px;
+}
 .promo {
     width: 40%;
     height: 40px;
@@ -48,24 +58,36 @@ body {
 }
 
 .navegacao {
-    width: 80%;
-    height: 50px;
+    width: 100%;
+    height: 30px;
     background: blue;
 }
 
 .produtos {
-    width: 80%;
-    height: 200px;
+    width: 100%;
+    height: 400px;
     background: white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
-
+.produtos .item {
+    width: 30%;
+    height: 350px;
+    background: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.item img {
+    width: 180px;
+    height: 160px;
+}
 .destaques {
-    width: 80%;
-    height: 200px;
+    width: 100%;
+    height: 300px;
     background: orange;
     display: flex;
     flex-direction: row;
@@ -74,7 +96,7 @@ body {
 }
 
 .footer {
-    width: 80%;
+    width: 100%;
     height: 80px;
     background: green;
     display: flex;
@@ -92,22 +114,10 @@ ul {
     color: white
 }
 
-.produtos .item {
-    width: 30%;
-    height: 150px;
-    background: lightgrey;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-}
-.item img {
-    width: 90px;
-    height: 90px;
-}
+
 .destaques .item {
     width: 30%;
-    height: 130px;
+    height: 250px;
     background: lightgrey;
     display: flex;
     flex-direction: row;
@@ -115,8 +125,8 @@ ul {
     align-items: center;
 }
 .destaques .item img {
-    width: 90px;
-    height: 90px;
+    width: 140px;
+    height: 120px;
 }
 .footer .contato {
     width: 40%;

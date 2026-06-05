@@ -69,6 +69,7 @@ body{
     justify-content: center; 
     align-items: center;      
     font-weight: bold;
+    cursor: pointer;
 }   
 .fundo button{
     width: 120px;

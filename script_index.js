@@ -25,4 +25,10 @@ window.onload = function() {
         melhorCompra4.addEventListener('click', () => { 
             alert('Essa foi boa! Você ganhou um desconto de 10%!');
         });
+
+    const btEscuro = document.querySelector(".btEscuro");
+        btEscuro.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            
+        });
 };
